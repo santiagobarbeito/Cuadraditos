@@ -2,7 +2,7 @@ let tiempo_cambio=200;
 matriz=[];
 let lado=0;
 let elemento=0;
-let frecuencia=500;
+let frecuencia=1;
 let activar_cambio=0;
 let j=0;
 let note=0;
@@ -106,7 +106,7 @@ function draw() {
       if (j==31){
         activar_cambio=0;
         j=0;
-        frecuencia = random(165,1000);
+        frecuencia = 1;
       }
     }
   }
